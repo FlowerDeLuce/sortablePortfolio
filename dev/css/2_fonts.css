@@ -1,0 +1,26 @@
+
+@font-face {
+	font-family: 'Lato';
+	src: url('../fonts/Lato-Regular/Lato-Regular.eot');
+	src: url('../fonts/Lato-Regular/Lato-Regular.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/Lato-Regular/Lato-Regular.woff') format('woff'),
+		 url('../fonts/Lato-Regular/Lato-Regular.ttf') format('truetype'),
+		 url('../fonts/Lato-Regular/Lato-Regular.svg#FontName') format('svg');
+	font-style: normal;
+	font-weight: 400;
+}
+
+
+@font-face {
+	font-family: 'Lato';
+	src: url('../fonts/Lato-Light/Lato-Light.eot');
+	src: url('../fonts/Lato-Light/Lato-Light.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/Lato-Light/Lato-Light.woff') format('woff'),
+		 url('../fonts/Lato-Light/Lato-Light.ttf') format('truetype'),
+		 url('../fonts/Lato-Light/Lato-Light.svg#FontName') format('svg');
+	font-style: normal;
+	font-weight: 300;
+}
+
+
+

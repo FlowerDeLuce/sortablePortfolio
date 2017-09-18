@@ -1,0 +1,233 @@
+.footer{
+    background-color: #ecf0f1;
+    position: relative;
+    
+    &:before{
+        content: '';
+        width: 100%;
+        height: 3px;
+        display: block;
+        background: -webkit-linear-gradient(left, rgb(123, 40, 177), rgb(53, 237, 246));
+        background: -o-linear-gradient(left, rgb(123, 40, 177), rgb(53, 237, 246));
+        background: linear-gradient(to right, rgb(123, 40, 177), rgb(53, 237, 246));
+    }
+}
+
+.footer-main>.inner-container{
+    display: flex;
+    padding: 45px 0 40px;
+    justify-content: space-between;
+}
+
+.shortly-about{
+    width: calc(100% - 475px - 266px - 30px);
+    font-family: Lato;
+    color:  #606366;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    .about-text{
+        word-wrap: break-word;
+    }
+}
+
+.contact-us{
+    position: relative;
+    width: 475px;
+    margin: 0 0 0 30px;
+  
+    &:after{
+        width: 100%;
+        height: 0;
+        display: block;
+        clear: both;
+    }
+    
+    .contact-link{
+        font-family: Lato;
+        color:  #606366;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 1;
+        padding-left: 35px;
+        position: relative;
+        display: inline-block;
+        &:hover{
+            color: rgb(53, 237, 246);
+            transition: all 0.5s; 
+            i{
+                color: rgb(53, 237, 246);
+                transition: all 0.5s; 
+                
+            }
+            >div>span{
+                border-color: rgb(53, 237, 246);
+                transition: all 0.5s; 
+            }
+            
+        }
+        &.dark{
+            color:  #34383d;
+        }
+        &.address{
+            >span{
+                margin-top: 10px;
+                display: inline-block;
+            }
+        }
+        >div{
+            position: absolute;
+            left: 0;
+            >span{
+                display: inline-block;
+                width: 20px;
+                height: 20px;
+                border-radius: 50%;
+                border: 1px solid #a255c4;
+                position: relative;
+                margin-right: 10px;
+                vertical-align: middle;
+            }
+        }
+        
+    }
+    
+    .contact-icon{
+        font-size: 12px;
+        color: #a255c4;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.contact-item{
+    margin-bottom: 10px;
+}
+
+.contact-list_block{
+    float: left;
+    margin-right: 30px;
+    &:last-child{
+        margin-right: 0;
+    }
+}
+
+.social-link{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    border: 1px solid #d6dadd;
+    border-radius: 50%;
+    transition: all 0.5s;
+    >i{
+        font-size: 18px;
+        color: #d6dadd;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    &:hover{
+        border-color: transparent;
+        transition: all 0.5s;
+        >i{
+           color: #fff;
+           transition: all 0.5s;
+           &:hover{
+                transition: all 0.5s;
+           }
+        }
+    }
+    
+    &.fb:hover{
+        background: #39599f;
+    }
+    
+    &.twit:hover{
+        background: #40bff5;
+    }
+    &.google:hover{
+        background: #eb5b4c;
+    }
+    &.pint:hover{
+        background: #b8242a;
+    }
+    &.flick:hover{
+        background: #ff1981;
+    }
+    &.drib:hover{
+        background: #e65992;
+    }
+    
+    
+    &.vim:hover{
+        background: #44bbff;
+    }
+    &.inst:hover{
+        background: #a47a5e;
+    }
+    &.yout:hover{
+        background: #cd322c;
+    } 
+    &.ln:hover{
+        background: #328dd3;
+    }
+}
+
+
+.footer-heading{
+    margin-bottom: 20px;
+    font-family: Lato;
+    color:  #34383d;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.social-list{
+    max-width: 266px;
+    width: 266px;
+    &:after{
+        content: '';
+    }
+}
+
+.contact-list{
+    width: 210px;
+    
+}
+
+.social-item{
+    display: inline-block;
+    margin: 0 10px 14px  0;
+}
+
+.contact-block{
+    max-width: 275px;
+}
+
+
+.footer-maps-btn{
+   padding: 10px 30px;
+    border-radius: 4px;
+    margin-top: 8px;
+    &:hover{
+        color: #a255c4;
+        border-color: #a255c4;
+        background: transparent;
+    }
+}
+.copyright{
+    padding: 30px 0;
+    background: #e3e7e9;
+    font-family: Lato;
+    color:  #899096;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    border-top: 1px solid #cbd0d4;
+
+}
